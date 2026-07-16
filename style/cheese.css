@@ -1,1 +1,117 @@
+//comment 
+
+
+:root{
+  --main-color: #2f5233;
+  --accent-color: #d9c27a;
+  --text-color: #333333;
+  --body-font: Georgia, "Times New Roman", serif;
+  --page-width: 80%;
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: var(--body-font);
+  color: var(--text-color);
+  line-height: 1.6;
+  background: #fafafa;
+}
+
+header,
+main,
+footer{
+  max-width: var(--page-width);
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+h1{
+  font-size: 2rem;
+  color: var(--main-color);
+  text-align: center;
+}
+
+h2{
+  color: var(--main-color);
+  margin: 1rem 0;
+}
+
+[lang]{
+  background: #ffffff;
+}
+
+[type="text"]{
+  border: 1px solid var(--main-color);
+  padding: 0.5em;
+}
+
+.latin{
+  font-style: italic;
+  font-weight: bold;
+}
+
+#warning{
+  border: 2px solid #cc0000;
+  background: #fff3cd;
+  padding: lem;
+  margin: 1rem 0;
+}
+
+header p{
+  text-align: center;
+}
+
+article > p{
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+dt + dd{
+  margin-bottom: 1rem;
+}
+
+dt{
+  font-wieght: bold;
+  color: var(--main-color);
+}
+
+blockquote{
+  border: 4px solid var(--accent-color);
+  padding: lem;
+  margin: 1rem 0;
+  background: #f4f4f4
+}
+
+blockquote::before{
+  content: "❝";
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+input:focus, 
+button:focus, 
+a:focus{
+  border: 2px solid var(--main-color);
+}
+input[type="checkbox"]:checked + label{
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+button{
+  background: var(--accent-color);
+  border: 1px solid var(--main-color);
+  padding: 0.5em 1em;
+}
+
+footer{
+  text-align: center;
+  margin: 2rem auto;
+}
 
