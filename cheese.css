@@ -1,4 +1,4 @@
-/* cse134bhw3cheese.netlify.app */
+/* https://cse134bhw3cheese.netlify.app/ */
 
 
 @import url("variables.css");
@@ -50,7 +50,7 @@ h2{
 
 #warning{
   border: 2px solid #cc0000;
-  background: #ffe0e0;
+  background: #fff3cd;
   padding: 1em;
   margin: 1rem 0;
 }
