@@ -1,4 +1,4 @@
-//comment 
+/* comment */
 
 
 :root{
@@ -57,7 +57,7 @@ h2{
 #warning{
   border: 2px solid #cc0000;
   background: #fff3cd;
-  padding: lem;
+  padding: 1em;
   margin: 1rem 0;
 }
 
@@ -75,13 +75,13 @@ dt + dd{
 }
 
 dt{
-  font-wieght: bold;
+  font-weight: bold;
   color: var(--main-color);
 }
 
 blockquote{
   border: 4px solid var(--accent-color);
-  padding: lem;
+  padding: 1em;
   margin: 1rem 0;
   background: #f4f4f4
 }
