@@ -1,1 +1,7 @@
-
+:root{
+  --main-color: #2f5233;
+  --accent-color: #d9c27a;
+  --text-color: #333333;
+  --body-font: Georgia, "Times New Roman", serif;
+  --page-width: 80%;
+}
