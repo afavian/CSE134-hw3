@@ -1,6 +1,6 @@
 /* https://cse134bhw3cheese.netlify.app/ */
 
-
+/* <link> is preferred in production because it loads stylesheets more efficiently than @import */
 @import url("variables.css");
 
 *{
